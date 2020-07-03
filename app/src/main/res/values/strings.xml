@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Food</string>
+
+    <string name="menu_meals">Meals</string>
+    <string name="menu_meal_prep">Meal prep</string>
+
+    <string name="global_retry">Retry</string>
+
+    <string name="meals_error_description">An error occurred while loading the meals.\nTry again.</string>
+
+    <string name="meal_prep_description">Type the maximum amount of calories you wish for today and get a full meal proposal !</string>
+    <string name="meal_prep_title">Get a meal prep for today !</string>
+    <string name="meal_prep_input_hint">Calories (eg. 500)</string>
+    <string name="meal_prep_form_cta">Generate</string>
+    <string name="meal_prep_result_title">Your meal prep</string>
+    <string name="meal_prep_error_description">An error occurred while loading your meal proposal.\nTry again.</string>
+    <string name="meal_prep_empty_retry">No result.\n\nTry again with different calorie value.</string>
 </resources>

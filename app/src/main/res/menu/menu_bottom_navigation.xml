@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actionMeals"
+        android:icon="@drawable/ic_whatshot"
+        android:title="@string/menu_meals" />
+    <item
+        android:id="@+id/actionMealPrep"
+        android:icon="@drawable/ic_room_service"
+        android:title="@string/menu_meal_prep" />
+</menu>

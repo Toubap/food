@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/viewForm"
+            layout="@layout/view_meal_prep_form" />
+
+        <ProgressBar
+            android:id="@+id/progressMealPrep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/viewResult"
+            layout="@layout/view_meal_prep_result"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/viewError"
+            layout="@layout/view_meal_prep_error"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/viewRetry"
+            layout="@layout/view_meal_prep_retry"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
